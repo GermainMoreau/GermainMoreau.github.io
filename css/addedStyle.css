@@ -1,0 +1,62 @@
+a{
+	color: #fff;
+}
+
+.imgAlign{
+	vertical-align: text-top;
+	float: left;
+	margin-right: 10px;
+}
+.jobTittle{
+	font-weight: bold;
+}
+
+.text-muted{
+	color: #fff;
+	text-align: left;
+}
+
+.timeline-title{
+	text-align: center;
+}
+
+.timeline-body p{
+	margin-bottom: 0px;
+}
+
+.timeline-badge .glyphicon{
+	top:0px;
+}
+
+.hrFull{
+	width: 100%;
+}
+
+h3{
+	text-align: center;
+}
+.hrReduce{
+	width: 50%;
+	margin-bottom: 30px;
+}
+
+.HobbiesRight{
+	text-align: right;
+}
+
+.HobbiesRight .imgAlign{
+	float: right;
+	margin-left: 10px;
+}
+
+.HobbiesRight{
+	margin-bottom: 70px;
+}
+
+.HobbiesLeft{
+	margin-bottom: 70px;
+}
+
+.btn-default{
+	width: 150px;
+}
