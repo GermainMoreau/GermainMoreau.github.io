@@ -78,12 +78,4 @@ h3 {
 .LangBar {
     left: inherit;
     background-color: #fff;
-    opacity: 20%
-}
-
-.LangBar.dropdown-menu > li > a {
-}
-
-.navbar-custom a {
-
 }
