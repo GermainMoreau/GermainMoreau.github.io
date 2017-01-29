@@ -1,86 +1,89 @@
-a{
-	color: #fff;
+a {
+    color: #fff;
 }
 
-.imgAlign{
-	vertical-align: text-top;
-	float: left;
-	margin-right: 10px;
-}
-.jobTittle{
-	font-weight: bold;
+.imgAlign {
+    vertical-align: text-top;
+    float: left;
+    margin-right: 10px;
 }
 
-.text-muted{
-	color: #fff;
-	text-align: left;
+.jobTittle {
+    font-weight: bold;
 }
 
-.timeline-title{
-	text-align: center;
+.text-muted {
+    color: #fff;
+    text-align: left;
 }
 
-.timeline-body p{
-	margin-bottom: 0px;
+.timeline-title {
+    text-align: center;
 }
 
-.timeline-badge .glyphicon{
-	top:0px;
+.timeline-body p {
+    margin-bottom: 0px;
 }
 
-.hrFull{
-	width: 100%;
+.timeline-badge .glyphicon {
+    top: 0px;
 }
 
-h3{
-	text-align: center;
-}
-.hrReduce{
-	width: 50%;
-	margin-bottom: 30px;
+.hrFull {
+    width: 100%;
 }
 
-.HobbiesRight{
-	text-align: right;
+h3 {
+    text-align: center;
 }
 
-.HobbiesRight .imgAlign{
-	float: right;
-	margin-left: 10px;
+.hrReduce {
+    width: 50%;
+    margin-bottom: 30px;
 }
 
-.HobbiesRight{
-	margin-bottom: 70px;
+.HobbiesRight {
+    text-align: right;
 }
 
-.HobbiesLeft{
-	margin-bottom: 70px;
+.HobbiesRight .imgAlign {
+    float: right;
+    margin-left: 10px;
 }
 
-.btn-default{
-	width: 150px;
+.HobbiesRight {
+    margin-bottom: 70px;
 }
 
-.HeadFormation{
-	font-size: 20px;
+.HobbiesLeft {
+    margin-bottom: 70px;
 }
 
-#education ul{
-	padding-bottom: 20px;
-}
-.intro{
-	height: 100%
+.btn-default {
+    width: 150px;
 }
 
-.LangBar{
-	left: inherit;
-	background-color: #fff;
-	opacity: 20%
+.HeadFormation {
+    font-size: 20px;
 }
 
-.LangBar.dropdown-menu>li>a{
+#education ul {
+    padding-bottom: 20px;
 }
 
-.navbar-custom a{
+.intro {
+    height: 100%
+}
+
+.LangBar {
+    left: inherit;
+    background-color: #fff;
+    opacity: 20%
+}
+
+.LangBar.dropdown-menu > li > a {
+}
+
+.navbar-custom a {
 
 }
