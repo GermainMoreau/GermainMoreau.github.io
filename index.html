@@ -6,10 +6,12 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Official Germain Moreau's website, you'll find everything that you should know about me here">
+    <meta name="author" content="Germain Moreau">
 
     <title>Germain Moreau</title>
+    
+    
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -34,18 +36,31 @@
 
 </head>
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" onload="defaultLanguage();">
     <!-- Navigation -->
     <nav class="navbar navbar-custom navbar-fixed-top">
         <div class="container">
+
             <div class="navbar-header">
+
+                <a href="" data-toggle="dropdown">
+                    <i class="navbar-brand page-scroll dropdown glyphicon glyphicon-globe"></i>
+                    <ul class="dropdown-menu LangBar">
+                        <li><a class="EN" onclick="setLanguage('FR');">French</a></li>
+                        <li><a class="EN" onclick="setLanguage('IT');">Italian</a></li>
+                        <li><a class="FR" onclick="setLanguage('EN');">Anglais</a></li>
+                        <li><a class="FR" onclick="setLanguage('IT');">Italien</a></li>
+                        <li><a class="IT" onclick="setLanguage('EN');">Inglese</a></li>
+                        <li><a class="IT" onclick="setLanguage('FR');">Francese</a></li>
+                    </ul>
+                </a>
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
                         Menu <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">
                     <i class="glyphicon glyphicon-home"></i>
                 </a>
+
             </div>
 
             <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
@@ -55,19 +70,29 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#whoAmI">Who am I?</a>
+                        <a class="page-scroll EN" href="#whoAmI">Who am I?</a>
+                        <a class="page-scroll FR" href="#whoAmI">Qui suis-je?</a>
+                        <a class="page-scroll IT" href="#whoAmI">chi sono?</a>
                     </li>                 
                     <li>
-                        <a class="page-scroll" href="#experience">Experiences</a>
+                        <a class="page-scroll EN" href="#experience">Experiences</a>
+                        <a class="page-scroll FR" href="#experience">Experiences</a>
+                        <a class="page-scroll IT" href="#experience">Esperienze</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#education">Education & skills</a>
+                        <a class="page-scroll EN " href="#education">Skills</a>
+                        <a class="page-scroll FR" href="#education">Compétences</a>
+                        <a class="page-scroll IT" href="#education">Competenze</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#hobbies">Hobbies</a>
+                        <a class="page-scroll EN" href="#hobbies">Hobbies</a>
+                        <a class="page-scroll FR" href="#hobbies">Interêts</a>
+                        <a class="page-scroll IT" href="#hobbies">Hobby</a>
                     </li>   
                     <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
+                        <a class="page-scroll EN" href="#contact">Contact</a>
+                        <a class="page-scroll FR" href="#contact">Contact</a>
+                        <a class="page-scroll IT" href="#contact">Contatto</a>
                     </li>
                 </ul>
             </div>
@@ -82,7 +107,9 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                        <p class="intro-text">On this website you'll find who I'm, what am I good at, what I've already done!</p>
+                        <p class="EN" class="intro-text">On this website you'll find who I'm, what am I good at, what I've already done!</p>
+                        <p class="FR" class="intro-text">Sur ce site vous trouverez qui je suis, ce pour quoi je suis doué ainsi que ce que j'ai déjà fait!</p>
+                        <p class="IT" class="intro-text">In questo sito troverete chi sono, cosa sono bravo, quello che ho già fatto!</p>
                         <a href="#whoAmI" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
                         </a>
@@ -96,28 +123,56 @@
     <section id="whoAmI" class="container content-section">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>Who am I?</h2>
+                <h2 class="EN">Who am I?</h2>
+                <h2 class="FR">Qui suis-je?</h2>
+                <h2 class="IT">Chi sono?</h2>
 
-                <img class="img-rounded imgAlign" src="img/CV.jpg" alt="Smiley face" height="150">
+                <img class="img-rounded imgAlign" src="img/CV.jpg" alt="Germain Moreau Cover" height="150">
 
-                <p>
+                <p class="EN">
                     Hi, my name is Germain.I'm a 24 years old student in an engineering school.
                     <br>
-
                     Currently, I'm doing a professional training contract within Atos Integration as analyst and developer.
                     <br>
                     <br>
-
                     At the beginning  if I choose to work in computer science that was because it was an intellectually stimulating field which allowed me to practice my curiosity and in which it was necessary to question, to adapt quickly.
                     <br>
                     <br>
-
                     Today, what I like is the human contact, transmit knowledge and exchanges with others. Due to my professional experiences I have gained some fluency and became a good instructor.
                     <br>
                     I'm not sensitive to the pressure and I like challenges; this already allowed me to distinguish myself in various professional and sporting challenges.
                     <br>
-
                     I appreciate having responsibilities, to be able to take initiative and the teamwork. In the past this allowed me to develop myself as head of the division office of partnership in the students union of my school.
+                </p>
+                <p class="FR">
+                    Salut, mon nom est Germain.Je suis un étudiant de 24 ans dans une école d'ingénieurs.
+                    <br>
+                    Actuellement, je fais un contrat de formation professionnelle au sein d'Atos Integration en tant qu'analyste et développeur.
+                    <br>
+                    <br>
+                    Au début, si je choisissais travailler en informatique, c'était parce que c'était un domaine intellectuellement stimulant qui me permettait de pratiquer ma curiosité et dans lequel il fallait interroger, s'adapter rapidement.
+                    <br>
+                    <br>
+                    Aujourd'hui, ce que j'aime, c'est le contact humain, transmettre les connaissances et les échanges avec les autres. En raison de mes expériences professionnelles, j'ai acquis une certaine fluidité et je suis devenu un bon instructeur.
+                    <br>
+                    Je ne suis pas sensible à la pression et j'aime les défis; Cela m'a déjà permis de me distinguer dans différents défis professionnels et sportifs.
+                    <br>
+                    J'apprécie avoir des responsabilités, être capable de prendre l'initiative et le travail d'équipe. Dans le passé cela m'a permis de me développer en tant que chef du bureau de division de partenariat dans le syndicat des étudiants de mon école.
+                </p>
+                <p class="IT">
+                    Ciao, il mio nome è Germain. Sono uno studente di 24 anni in una scuola di ingegneria.
+                    <br>
+                    Attualmente, sto facendo un contratto di formazione professionale all'interno di Atos Integrazione come analista e sviluppatore.
+                    <br>
+                    <br>
+                    All'inizio, se scelgo di lavorare in informatica era perché era un campo intellettualmente stimolante che mi ha permesso di praticare la mia curiosità e in cui è stato necessario mettere in discussione, di adattarsi rapidamente.
+                    <br>
+                    <br>
+                    Oggi, quello che mi piace è il contatto umano, trasmettere conoscenze e gli scambi con gli altri. A causa di mie esperienze professionali ho acquisito una certa scioltezza ed è diventato un buon istruttore.
+                    <br>
+                    Io non sono sensibili alla pressione e mi piacciono le sfide; già questo mi ha permesso di distinguermi in varie sfide professionali e sportive.
+                    <br>
+                    Apprezzo con responsabilità, di essere in grado di prendere l'iniziativa e il lavoro di squadra. In passato questo mi ha permesso di sviluppare me stesso come capo dell'ufficio divisione del partenariato nella associazione di studente della mia scuola.
                 </p>
                 <hr class="hrFull"/>
             </div>
@@ -130,8 +185,8 @@
         <div class="row">
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Experiences</h2>
-                    <p>
+                    <h2 class="EN">Experiences</h2>
+                    <p class="EN">
                         I work since I'm 18 years old, here you'll find a little sum-up of when and where I worked, what I learned there...
                     </p>
                     <ul class="timeline">
@@ -149,16 +204,16 @@
                                 </div>
 
                                 <div class="timeline-body">
-                                    <p class="jobTittle">Developper</p>
+                                    <p class="jobTittle EN">Developper</p>
                                     <p>
-                                        <small class="text-muted">
+                                        <small class="text-muted EN">
                                             <i class="glyphicon glyphicon-time"></i> 
                                             July 2016 - Now
                                         </small>
                                         <br>
                                         <br>
                                     </p>
-                                    <p class="description">
+                                    <p class="description EN">
                                         Website development using Jahia, web technologies and JAVA/JEE.
                                         <br>
                                         Important team Work and project management.
@@ -178,19 +233,19 @@
                                     <h4 class="timeline-title">Fidelia Assistance</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="jobTittle">Assistance Coordinator</p>
+                                    <p class="jobTittle EN">Assistance Coordinator</p>
                                     <p>
-                                    <small class="text-muted">
+                                    <small class="text-muted EN">
                                         <i class="glyphicon glyphicon-time"></i> 
                                         June 2013 - January 2016 
                                     </small>
                                     <br>
                                     <br>
                                     </p>
-                                    <p class="description">
-                                        Coordination of assistance’s services for insured membersCollective.
+                                    <p class="description EN">
+                                        Coordination of assistance’s services for insured members.
                                         <br>
-                                        Management of file, important relational aspect.
+                                        Collective Management of file, important relational aspect.
                                     </p>
                                 </div>
                             </div>
@@ -204,21 +259,21 @@
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
-                                    <h4 class="timeline-title">Independant</h4>
+                                    <h4 class="timeline-title EN">Independant</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="jobTittle">
+                                    <p class="jobTittle EN">
                                         Private instructor
                                     </p>
                                     <p>
-                                        <small class="text-muted">
+                                        <small class="text-muted EN">
                                             <i class="glyphicon glyphicon-time"></i> 
                                             January 2012 - March 2015
                                         </small>
                                         <br>
                                         <br>
                                     </p>
-                                    <p class="description">
+                                    <p class="description EN">
                                         Tutoring for high-school pupils in mathematics and physics.
                                         <br>
                                         Intake of teaching capacities and knowledge transmission.
@@ -239,18 +294,18 @@
                                     <h4 class="timeline-title">Amazon.fr</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="jobTittle">
+                                    <p class="jobTittle EN">
                                         Support Technician
                                     </p>
                                     <p>
-                                        <small class="text-muted">
+                                        <small class="text-muted EN">
                                             <i class="glyphicon glyphicon-time"></i> 
                                             July 2012 - September 2012
                                         </small>
                                         <br>
                                         <br>
                                     </p>
-                                    <p class="description">
+                                    <p class="description EN">
                                         Computers maintenance and user support.
                                         <br>
                                         Integration within a work force and catch of responsibility.
@@ -273,16 +328,16 @@
                                 </div>
 
                                 <div class="timeline-body">
-                                    <p class="jobTittle">Order picker</p>
+                                    <p class="jobTittle EN">Order picker</p>
                                     <p>
-                                        <small class="text-muted">
+                                        <small class="text-muted EN">
                                             <i class="glyphicon glyphicon-time"></i> 
                                             July 2011 - October 2011
                                         </small>
                                         <br>
                                         <br>
                                     </p>
-                                    <p class="description">
+                                    <p class="description EN">
                                         Preparation of orders.
                                         <br>
                                         Discover of professional environment.
@@ -305,14 +360,14 @@
     <section id="education" class="container content-section">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>Education and Skills</h2>
-                <p>
+                <h2 class="EN">Education and Skills</h2>
+                <p class="EN">
                     I always wanted to work as an engineer, in order to do that I had to study in France and Italy. While I was studying and working, I obtained new skills which you could find in the section below.
                 </p>
                 <hr class="hrReduce"/>
-                <h3>Education</h3>
+                <h3 class="EN">Education</h3>
                 <!--=========== Polytech sub-Section ===========-->
-                <div class="HeadFormation">
+                <div class="HeadFormation EN">
                     <small class="text-muted">
                         <i class="glyphicon glyphicon-time"></i> 
                         2012 - 2017 
@@ -322,26 +377,26 @@
                 </div>              
 
                 <ul>
-                    <li>
+                    <li class="EN">
                         Programming language: C - C++ - Java - UML
                     </li>
-                    <li>
+                    <li class="EN">
                         Database: Oracle - SQL - Merise model
                     </li>
-                    <li>
+                    <li class="EN">
                         Project gestion : Maven - Git - Apache Subversion
                     </li>
-                    <li>
+                    <li class="EN">
                         System: Unix
                     </li>
-                    <li>
+                    <li class="EN">
                         Thoerical sciences: Physics - Mathematical analysis - Algebra
                     </li>
                 </ul>
                 <!--========= end of Polytech sub-Section =========-->   
 
                 <!--============== Siena sub-Section ==============-->
-                <div class="HeadFormation">
+                <div class="HeadFormation EN ">
                     <small class="text-muted">
                         <i class="glyphicon glyphicon-time"></i> 
                         February 2016 - July 2016 
@@ -350,20 +405,20 @@
                     Engineering formation – Università degli Studi di Siena
                 </div>
                 <ul>
-                    <li>
+                    <li class="EN">
                         Artificial Intelligence : Neuronal networks - Decision theory
                     </li>
-                    <li>
+                    <li class="EN">
                         Operational research: optimization - Linear programming
                     </li>
-                    <li>
+                    <li class="EN">
                         Bioinformatics : Constraint Logic Programming - Sequence comparison
                     </li>
                 </ul>
                 <!--========== End of Siena sub-Section ===========-->
 
                 <!--============== SUPINFO Section ================-->
-                <div class="HeadFormation">
+                <div class="HeadFormation EN">
                     <small class="text-muted">
                         <i class="glyphicon glyphicon-time"></i> 
                         2011 – 2012 
@@ -372,21 +427,21 @@
                     Associate of science - SUPINFO Tours
                 </div>
                 <ul>
-                    <li>
+                    <li class="EN">
                         web: HTML - JavaScript – PHP
                     </li>
-                    <li>
+                    <li class="EN">
                         Network: CCNA 1 to 4 CISCO
                     </li>
-                    <li>
+                    <li class="EN">
                         I.T Laws : Intellectual property
                     </li>
                 </ul>
                 <!--========== End of SUPINFO sub-Section =========-->
 
                 <hr class="hrReduce"/>
-                <h3>Skills</h3>
-                <h4>Technicals</h4>
+                <h3 class="EN">Skills</h3>
+                <h4 class="EN">Technicals</h4>
                 <ul>
                     <li>
                         JAVA - JAVA/EE
@@ -402,31 +457,31 @@
                     </li>
                 </ul>
                 <br>
-                <h4>Languages</h4>
+                <h4 class="EN">Languages</h4>
                 <ul>
-                    <li>
+                    <li class="EN">
                         French: mother tongue ( C2 )
                     </li>
-                    <li>
+                    <li class="EN">
                         English: Proficient ( C1 )
                     </li>
-                    <li>
+                    <li class="EN">
                         Italian: Independent ( C1 )
                     </li>
-                    <li>
+                    <li class="EN">
                         Spanish: Basic ( B2 )
                     </li>
                 </ul>
                 <br>
-                <h4>Humans</h4>
+                <h4 class="EN">Humans</h4>
                 <ul>
-                    <li>
+                    <li class="EN">
                         Critical mind
                     </li>
-                    <li>
+                    <li class="EN">
                         Relationship management
                     </li>
-                    <li>
+                    <li class="EN">
                         Teaching
                     </li>
                 </ul>
@@ -443,33 +498,33 @@
         <div class="row">
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Hobbies</h2>
-                    <p>In order to understand who I truly  am, it's necessary to know what I particularly  like.</p>
+                    <h2 class="EN">Hobbies</h2>
+                    <p class="EN">In order to understand who I truly  am, it's necessary to know what I particularly  like.</p>
                     <br>
                     <div class="HobbiesLeft">
-                        <img class="img-rounded imgAlign" src="img/HobbiesGolf.jpg" alt="Smiley face" height="155">
-                        <p>
+                        <img class="img-rounded imgAlign" src="img/HobbiesGolf.jpg" alt="Germain Moreau Golf" height="155">
+                        <p class="EN">
                             I started to play golf in 2013, I like this sport because it requires keeping his nerve, to be concentrated for hours while playing. It's also very useful  to clear his mind. I started competitions in 2015 and today my handicap is under 25.
                         </p>
                     </div>
 
                     <div class="HobbiesRight">
-                        <img class="img-rounded imgAlign" src="img/HobbiesRowing.jpg" alt="Smiley face" height="155">
-                        <p>
+                        <img class="img-rounded imgAlign" src="img/HobbiesRowing.jpg" alt="Germain Moreau Rowing" height="155">
+                        <p class="EN">
                             My first experience with rowing was in 2014, I did this sport for 2 years with my school. What I liked was the team spirit, it's important to overcome yourself for the team. The best memory that I've got was in 2015 when we won the university national championship in our category.
                         </p>
                     </div>
 
                     <div class="HobbiesLeft">
-                        <img class="img-rounded imgAlign" src="img/HobbiesBike.jpg" alt="Smiley face" height="155">
-                        <p>
+                        <img class="img-rounded imgAlign" src="img/HobbiesBike.jpg" alt="Germain Moreau DirtBike" height="155">
+                        <p class="EN">
                             Since I'm 12 years old, I'm riding Dirt bikes. Today I'm even riding on the road. Motocross is a complete sport, it's important to stay focus all the time. Today I'm practicing  it for fun, but in the past it did some competitions. It taught me how to keep calm in every situations.
                         </p>
                     </div>
 
                     <div class="HobbiesRight">
-                        <img class="img-rounded imgAlign" src="img/HobbiesTravel.jpg" alt="Smiley face" height="155">
-                        <p>
+                        <img class="img-rounded imgAlign" src="img/HobbiesTravel.jpg" alt="Germain Moreau Travels" height="155">
+                        <p class="EN">
                             I like to travel, it's always meaningful  to see new things, discover new ways of livings. It deeply changes the way you think, sometimes it forces yourself to step back from what you believed to know. That's why in 2015 I decided to spend 6 months abroad in Italy.
                         </p>
                     </div>
@@ -484,8 +539,8 @@
     <section id="contact" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
-                <h2>Contact</h2>
-                <p>
+                <h2 class="EN">Contact</h2>
+                <p class="EN">
                     Feel free to contact me to provide some feedback, offer a job opportunity, present a new project...
                     You could also find my resume below.
                 </p>
@@ -500,7 +555,7 @@
                             <a href="mailto:contact@germainmoreau.com" class="btn btn-default btn-lg"><i class="fa fa-envelope-o fa-fw"></i> <span class="network-name">e-mail</span></a>
                         </li>
                         <li>  
-                            <a href="ressources/CV-MOREAU-GERMAIN-EN.pdf" class="btn btn-default btn-lg"><i class="fa fa-file-pdf-o fa-fw"></i> <span class="network-name">Resume</span></a>
+                            <a href="ressources/CV-MOREAU-GERMAIN-EN.pdf" class="btn btn-default btn-lg EN"><i class="fa fa-file-pdf-o fa-fw"></i> <span class="network-name">Resume</span></a>
                         </li>
                     </ul>
             </div>
@@ -529,6 +584,9 @@
 
     <!-- Theme JavaScript -->
     <script src="js/grayscale.min.js"></script>
+    
+    <!-- Multi Lang -->
+    <script src="js/multilang.js"></script>
 
 </body>
 
