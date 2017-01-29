@@ -27,6 +27,13 @@
     <link href="css/addedStyle.css" rel="stylesheet">
     <link rel="icon" href="favicon.ico"/>
 
+    <script src="js/multilang.js"></script>
+    <script src="vendor/jquery/jquery.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendor/jquery/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="vendor/googleapis/js/googleApis.js"></script>
+    <script src="js/grayscale.min.js"></script>
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -76,7 +83,7 @@
                 </li>
                 <li>
                     <a class="page-scroll EN" href="#experience">Experiences</a>
-                    <a class="page-scroll FR" href="#experience">Experiences</a>
+                    <a class="page-scroll FR" href="#experience">Expériences</a>
                     <a class="page-scroll IT" href="#experience">Esperienze</a>
                 </li>
                 <li>
@@ -109,10 +116,12 @@
                 <div class="col-md-8 col-md-offset-2">
                     <p class="intro-text EN">On this website you'll find who I'm, what am I good at, what I've
                         already done!</p>
-                    <p class="intro-text FR">Sur ce site vous trouverez qui je suis, ce pour quoi je suis doué
-                        ainsi que ce que j'ai déjà fait!</p>
-                    <p class="intro-text IT">In questo sito troverete chi sono, cosa sono bravo, quello che ho
-                        già fatto!</p>
+                    <p class="intro-text FR">Ce site présente mon parcours scolaire, professionnel, mes compétences
+                        ainsi que mes centres d'intérêts.
+                    </p>
+                    <p class="intro-text IT">Questo sito presenta il mio percorso scolastico, professionale, le mie
+                        competenze e i miei centri di interessi.
+                    </p>
                     <a href="#whoAmI" class="btn btn-circle page-scroll">
                         <i class="fa fa-angle-double-down animated"></i>
                     </a>
@@ -130,7 +139,8 @@
             <h2 class="FR">Qui suis-je?</h2>
             <h2 class="IT">Chi sono?</h2>
 
-            <img class="img-rounded imgAlign" src="img/CV.jpg" alt="Germain Moreau Cover" height="150">
+            <img class="img-rounded imgAlign" src="img/GermainMoreauCVPhoto.jpg" alt="Germain Moreau Cover"
+                 height="150">
 
             <p class="EN">
                 Hi, my name is Germain.I'm a 24 years old student in an engineering school.
@@ -154,27 +164,27 @@
                 school.
             </p>
             <p class="FR">
-                Salut, mon nom est Germain.Je suis un étudiant de 24 ans dans une école d'ingénieurs.
+                Bonjour, je m'apelle Germain Moreau. J'ai 24 ans et je suis étudiant en école d'ingénieur.
                 <br>
-                Actuellement, je fais un contrat de formation professionnelle au sein d'Atos Integration en tant
+                Actuellement je suis en contrat de professionnalisation au sein de l'entreprise Atos Integration en tant
                 qu'analyste et développeur.
                 <br>
                 <br>
-                Au début, si je choisissais travailler en informatique, c'était parce que c'était un domaine
-                intellectuellement stimulant qui me permettait de pratiquer ma curiosité et dans lequel il fallait
-                interroger, s'adapter rapidement.
+                J'ai choisi l'informatique car c'est un domaine stimulant intellectuellement me permettant d'exercer ma
+                curiosité et dans lequel il est nécessaire de se remettre en question, de s'adapter rapidement.
                 <br>
                 <br>
-                Aujourd'hui, ce que j'aime, c'est le contact humain, transmettre les connaissances et les échanges avec
-                les autres. En raison de mes expériences professionnelles, j'ai acquis une certaine fluidité et je suis
-                devenu un bon instructeur.
+                Ce qui me plaît c'est le contact humain, savoir transmettre et échanger.
+                Du fait de mes expériences professionnelles j'ai acquis une certaine aisance à l'oral et suis devenu
+                pédagogue.
                 <br>
-                Je ne suis pas sensible à la pression et j'aime les défis; Cela m'a déjà permis de me distinguer dans
-                différents défis professionnels et sportifs.
+                Je suis peu sensible à la pression et j'aime relever des défis;
+                ceci m'a déjà permis de me distinguer lors de divers challenges professionnels et sportifs.
                 <br>
-                J'apprécie avoir des responsabilités, être capable de prendre l'initiative et le travail d'équipe. Dans
-                le passé cela m'a permis de me développer en tant que chef du bureau de division de partenariat dans le
-                syndicat des étudiants de mon école.
+                J'apprécie le fait d'avoir des responsabilités, de pouvoir prendre des initiatives et le travail
+                d'équipe.
+                Ceci m'a déjà permis de m'épanouir en tant que responsable du pôle partenariat du bureau des élèves de
+                mon école.
             </p>
             <p class="IT">
                 Ciao, il mio nome è Germain. Sono uno studente di 24 anni in una scuola di ingegneria.
@@ -211,9 +221,17 @@
         <div class="container">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2 class="EN">Experiences</h2>
+                <h2 class="FR">Expériences</h2>
+                <h2 class="IT">Esperienze</h2>
                 <p class="EN">
-                    I work since I'm 18 years old, here you'll find a little sum-up of when and where I worked, what I
-                    learned there...
+                    Here you'll find a little sum-up of when and where I worked and what I
+                    learned from those experiences.
+                </p>
+                <p class="FR">
+                    Vous trouverez ici un résumé des differents postes que j'ai occupé, ce que j'y ai fait et appris.
+                </p>
+                <p class="IT">
+                    Troverete qui un riassunto dei vari posti che ho occupato, quello che ho fatto e imparato.
                 </p>
                 <ul class="timeline">
 
@@ -231,10 +249,20 @@
 
                             <div class="timeline-body">
                                 <p class="jobTittle EN">Developper</p>
+                                <p class="jobTittle FR">Développeur</p>
+                                <p class="jobTittle IT">Sviluppatore</p>
                                 <p>
                                     <small class="text-muted EN">
                                         <i class="glyphicon glyphicon-time"></i>
                                         July 2016 - Now
+                                    </small>
+                                    <small class="text-muted FR">
+                                        <i class="glyphicon glyphicon-time"></i>
+                                        Juillet 2016 - Maintenant
+                                    </small>
+                                    <small class="text-muted IT">
+                                        <i class="glyphicon glyphicon-time"></i>
+                                        luglio 2016 - Ora
                                     </small>
                                     <br>
                                     <br>
@@ -242,8 +270,19 @@
                                 <p class="description EN">
                                     Website development using Jahia, web technologies and JAVA/JEE.
                                     <br>
-                                    Important team Work and project management.
+                                    Important team Work and project management, including pre-sales.
                                 </p>
+                                <p class="description FR">
+                                    Mise en place d'une solution WEB pour la CNAV: Jahia - JAVA/JEE - xHTML
+                                    <br>
+                                    Audit d'organisation des moyens de productions pour SKF, avant-vente
+                                </p>
+                                <p class="description IT">
+                                    Sviluppo di siti Web facendo uso di Jahia, di tecnologie web e di JAVA/JEE.
+                                    <br>
+                                    Lavoro di gruppo e Gestione di progetti, compreso le prevendite.
+                                </p>
+
                             </div>
                         </div>
                     </li>
@@ -530,7 +569,8 @@
                     like.</p>
                 <br>
                 <div class="HobbiesLeft">
-                    <img class="img-rounded imgAlign" src="img/HobbiesGolf.jpg" alt="Germain Moreau Golf" height="155">
+                    <img class="img-rounded imgAlign" src="img/GermainMoreauGolf.jpg" alt="Germain Moreau Golf"
+                         height="155">
                     <p class="EN">
                         I started to play golf in 2013, I like this sport because it requires keeping his nerve, to be
                         concentrated for hours while playing. It's also very useful to clear his mind. I started
@@ -539,7 +579,7 @@
                 </div>
 
                 <div class="HobbiesRight">
-                    <img class="img-rounded imgAlign" src="img/HobbiesRowing.jpg" alt="Germain Moreau Rowing"
+                    <img class="img-rounded imgAlign" src="img/GermainMoreauRowing.jpg" alt="Germain Moreau Rowing"
                          height="155">
                     <p class="EN">
                         My first experience with rowing was in 2014, I did this sport for 2 years with my school. What I
@@ -549,7 +589,7 @@
                 </div>
 
                 <div class="HobbiesLeft">
-                    <img class="img-rounded imgAlign" src="img/HobbiesBike.jpg" alt="Germain Moreau DirtBike"
+                    <img class="img-rounded imgAlign" src="img/GermainMoreauBike.jpg" alt="Germain Moreau DirtBike"
                          height="155">
                     <p class="EN">
                         Since I'm 12 years old, I'm riding Dirt bikes. Today I'm even riding on the road. Motocross is a
@@ -559,7 +599,7 @@
                 </div>
 
                 <div class="HobbiesRight">
-                    <img class="img-rounded imgAlign" src="img/HobbiesTravel.jpg" alt="Germain Moreau Travels"
+                    <img class="img-rounded imgAlign" src="img/GermainMoreauTravel.jpg" alt="Germain Moreau Travels"
                          height="155">
                     <p class="EN">
                         I like to travel, it's always meaningful to see new things, discover new ways of livings. It
@@ -610,23 +650,6 @@
 <footer>
     <div class="container text-center">
         <p>Copyright &copy; Germain Moreau 2016</p>
-        <!-- jQuery -->
-        <script src="vendor/jquery/jquery.js"></script>
-
-        <!-- Bootstrap Core JavaScript -->
-        <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-
-        <!-- Plugin JavaScript -->
-        <script src="vendor/jquery/jquery.easing.min.js"></script>
-
-        <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
-        <script type="text/javascript" src="vendor/googleapis/js/googleApis.js"></script>
-
-        <!-- Theme JavaScript -->
-        <script src="js/grayscale.min.js"></script>
-
-        <!-- Multi Lang -->
-        <script src="js/multilang.js"></script>
     </div>
 </footer>
 
