@@ -43,7 +43,14 @@
 
 </head>
 
-<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" onload="defaultLanguage();">
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+<!-- Hide all the content before the end of the load -->
+<script type="text/javascript">
+    hideBeforeLoad()
+</script>
+<!-- end of the script call-->
+
 <!-- Navigation -->
 <nav class="navbar navbar-custom navbar-fixed-top">
     <div class="container">
@@ -625,6 +632,7 @@
             </p>
             <ul class="list-inline banner-social-buttons">
                 <li>
+                <li>
                     <a href="https://www.linkedin.com/in/germainmoreau" class="btn btn-default btn-lg"><i
                             class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
                 </li>
@@ -644,8 +652,16 @@
         </div>
     </div>
 </section>
+
 <!-- end ofeducation Section -->
+0
+<!-- Shall all the content after the end of the load -->
+<script type="text/javascript">
+    showAfterLoad();
+</script>
+<!-- end of the script call-->
 </body>
+
 <!-- Footer -->
 <footer>
     <div class="container text-center">
