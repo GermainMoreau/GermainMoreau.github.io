@@ -17,7 +17,6 @@ function setLanguage(Lang) {
             changeDisplayOfALanguage('IT', 'none');
             changeDisplayOfALanguage('FR', 'none');
             modifyHTMLLang('en');
-
     }
 }
 
