@@ -21,9 +21,6 @@ a {
     text-align: center;
 }
 
-.timeline-body p {
-    margin-bottom: 0px;
-}
 
 .timeline-badge .glyphicon {
     top: 0px;
@@ -80,4 +77,15 @@ h3 {
     background-color: #fff;
 }
 
-.EN
+.description{
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+.description li{
+    padding-bottom: 10px;
+}
+
+.JobDate{
+    padding-bottom: 20px;
+}
