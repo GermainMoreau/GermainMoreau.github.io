@@ -3,7 +3,7 @@
 ## Details Of The version
 
 * On this website you'll fin who I am
-* [Live Version](http://www.germainmoreau.com/)
+* [Live Version](https://germainmoreau.github.io/)
 
 ## Copyright and License
 
